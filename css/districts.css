@@ -1,0 +1,30 @@
+.carousel { z-index: -99; } /* keeps this behind all content */
+.carousel { z-index: -99; } /* keeps this behind all content */
+.carousel .item {
+    position: fixed; 
+    width: 100%; height: 100%;
+    background: no-repeat center center scroll;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+}
+.marginLR{
+    margin: 200px 80px;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: black;
+    
+}
+.tm-margin{
+    margin-top: 8%;
+   
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
